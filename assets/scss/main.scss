@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./cart-icon";
+h1 {
+  color: red;
+  text-transform: uppercase;
+}
+
+// 21-min
+
+.sviper-bg {
+  background-color: #0125fa;
+}
+.sviper-btn {
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  color: #ffa;
+  background-color: #333;
+  border-radius: 24px;
+  align-items: center;
+}

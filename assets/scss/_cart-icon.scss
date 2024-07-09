@@ -1,0 +1,22 @@
+.cart-btn {
+  svg {
+    path {
+      transition: all 0.3s ease;
+    }
+  }
+  &:hover {
+    svg {
+      path {
+        fill: #4f46e5;
+      }
+    }
+  }
+}
+
+.active-cart {
+  svg {
+    path {
+      fill: #4f46e5;
+    }
+  }
+}
